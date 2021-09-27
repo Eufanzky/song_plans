@@ -1,0 +1,15 @@
+{
+  "name": "song_plans",
+  "version": "1.0.0",
+  "description": "Web page, where you see the songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Eugenio Condori <eufanzky@gmail.com>",
+  "license": "MIT"
+}
