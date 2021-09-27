@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
 <body>
     <main class="main-content">
@@ -22,18 +23,19 @@
                 </p>
             </div>
             <div class="plan-section">
-                <figure>
-                    <img src="./images/icon-music.svg">
+                <figure class="plan-section__image plan-section__object--margins">
+                    <img src="./images/icon-music.svg" alt="image of music">
                     <figcaption></figcaption>
                 </figure>
-                <div>
-
+                <div class="plan-section__money plan-section__object--margins">
+                    <p class="plan-section__money-p1">Annual Plan</p>
+                    <p class="plan-section__money-p2">$59.99/year</p>
                 </div>
-                <span>Change</span>
+                <span class="plan-section__change plan-section__object--margins button-hover">Change</span>
             </div>
             <div class="buttons-section">
-                <button type="button">Proceed to payment</button>
-                <button type="button">Cancel Order</button>
+                <button class="buttons-section__button1 button-hover" type="button">Proceed to payment</button>
+                <button class="buttons-section__button2 button-hover" type="button">Cancel Order</button>
             </div>
         </section>
     </main>
